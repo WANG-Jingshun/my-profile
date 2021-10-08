@@ -1,0 +1,127 @@
+body {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  color: #575F7D;
+}
+
+h1,h2,h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+  background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block
+}
+
+h2 {
+  color: #50cc7f;
+  font-size: 26px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+a {
+  font-family: 'roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+}
+
+
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.page-content {
+  margin-left: 200px;
+}
+
+.container {
+  width: 700px
+  margin: 24px auto
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  text-align: center;
+  padding: 40px 70px;
+  margin: 36px 150px;
+  box-shadow: #000000a6 4px 5px 9px 1px;
+  border-radius: 7px;
+}
+
+.photo-round {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+  color: white;
+  padding: 16px;
+  border-radius: 7px;
+  font-weight: bold;
+  text-decoration: none;
+  border:#AC32E4 double;  
+  transition: 1s;
+}
+
+.btn-blue:hover {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: #AC32E4;  
+}
+
+.applications {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-basis: 50px;
+}
+
+.application img {
+  width: 50px;
+}
+
+#introduction-paragraph{
+   margin-bottom: 36px;
+}
